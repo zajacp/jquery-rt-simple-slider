@@ -26,7 +26,7 @@ $ ->
         methods = {
             run : ()->
                 inter = setInterval () ->
-                    $("ul", $my_this)..stop(true, true).animate
+                    $("ul", $my_this).stop(true, true).animate
                         left: "-="+element_width
                     , () ->
                         if parseInt($("ul", $my_this).css("left")) < -1*(width-1)

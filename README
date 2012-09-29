@@ -1,0 +1,26 @@
+
+<div class="simple_slider_content" >
+  <ul>
+  <li>
+    <%=image_tag "1.png"%>
+  </li>
+  <li>
+    <%=image_tag "2.png"%>
+  </li>
+  <li>
+    <%=image_tag "3.png"%>
+  </li>
+  <li>
+    <%=image_tag "4.png"%>
+  </li>
+  <li>
+    <%=image_tag "5.png"%>
+  </li>
+  <li>
+    <%=image_tag "6.png"%>
+  </li>
+  <li>
+    <%=image_tag "7.png"%>
+  </li>
+  </ul>
+</div>
